@@ -10,7 +10,7 @@ response = requests.get(api_url)
 if response.status_code == 200:
     # Parsear las respuestas en formato JSON
     data = response.json()
-    print(f"El clima actual en Mexico: {data['weather'][0]['description']}")
+    print(f"El clima actual en India: {data['weather'][0]['description']}")
 else:
     print('Error al obtener los datos del clima')
 
