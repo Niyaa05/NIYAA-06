@@ -1,4 +1,4 @@
-import yfinance as yf.
+import yfinance as yf
 def get_stock_data(ticker):
   data = yf.
   download(ticker,
